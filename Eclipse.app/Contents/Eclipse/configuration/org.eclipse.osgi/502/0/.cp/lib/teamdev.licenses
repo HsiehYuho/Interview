@@ -1,0 +1,37 @@
+Product: JxDesktop
+Version: 1.x
+Licensed to: 
+License type: Runtime
+License info: Not for development
+Expiration date: NEVER
+Generation date: 01-10-2010
+Platforms: win32/x86;mac/ppc;mac/x64;win32/x64;mac/x86
+Company: Genuitec, LLC
+SigB: 96m8hbavkns5ljyc6gzrijufnjc6mbctq712w8kl7x788mc9ei9r5wts135r4rldowi72tc4tsryue5v
+SigA: jq4pz5ajhsravjrwcv4eeg97cbox76cvbnw3hsn1bjvx6fzgjewp2e9x1bea19jrp0k78nq0f2vw1mcz
+
+Product: JxCapture
+Version: 2.x
+Licensed to: 
+License type: Runtime
+License info: Not for development
+Expiration date: NEVER
+Generation date: 01-10-2010
+Platforms: win32/x86;mac/ppc;mac/x64;win32/x64;mac/x86
+Company: Genuitec, LLC
+SigB: ll8mgf4awue6ygd9m1l5fkfc3ymlnr933i5alaeyb0sysgr1rxnx533hm8mwduxmzoxyxf2g2fwmtamh
+SigA: xkisqwob836cwtr6hiqgdi8s5rugcgq8aiqvc0asewryyqe4sbz4lo34bsoy5p2rvwvoxjgmw2uqdxl8
+
+Fri Oct 1 05:10:20 CDT 2010
+
+Genuitec, LLC
+NEVER
+Runtime
+Not for development
+win32/x86;linux/ppc;mac/ppc;mac/x64;win32/x64;mac/x86;linux/x86;linux/x64;linux/ppc64
+11x79a0qope8e5xt46hxwcygwu5cf109h4yld00hskj0gqejp8lyftdtnmxxaqvbiebtr5wpxchx2jnpf
+zt91c88r5kuechi2mic9njuw018vkswzabajpg41kp6rxrfta631s8skfwcfmylo96tleh7vif948olk
+Version: 3.x
+Product: JNIWrapper
+
+
