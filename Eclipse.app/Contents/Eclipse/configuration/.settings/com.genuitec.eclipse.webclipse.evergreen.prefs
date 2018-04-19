@@ -1,7 +1,7 @@
 eclipse.preferences.version=1
-manifest.check.timestamp=1509739829350
-manifest.download.etag="59bb0a32-140f"
-manifest.download.modified-date=Thu, 14 Sep 2017 23\:01\:06 GMT
+manifest.check.timestamp=1516739223167
+manifest.download.etag="5a3a7346-1029"
+manifest.download.modified-date=Wed, 20 Dec 2017 14\:27\:18 GMT
 manifest.download.url=http\://www.genuitec.com/updates/webclipse/ci/webclipse.json
 release-notes-ids=2017ci8
 webclipse.installed-release=1.8.4.201709142220

@@ -750,3 +750,597 @@
 [2017-10-17 22:07:27] Performing post bootstrap tasks
 [2017-10-17 22:07:27] Changing /Users/Yuho/Git/Interview/Eclipse.app/Contents/Eclipse/configuration/config.ini (osgi.configuration.cascaded=false)
 [2017-10-17 22:07:27] 
+[2018-01-22 22:31:17] Executing startup tasks
+[2018-01-22 22:31:17] Java(TM) SE Runtime Environment 1.8.0_111-b14
+[2018-01-22 22:31:17] Product org.eclipse.products.epp.package.java.oxygen
+[2018-01-22 22:31:17] Workspace /Users/Yuho/Git/Interview
+[2018-01-22 22:31:17] Bundle org.eclipse.oomph.setup 1.8.0.v20170408-0745, build=3098, branch=e12ba4db800d8f30e47fd2525429e2f55baf9396
+[2018-01-22 22:31:17] Bundle org.eclipse.oomph.setup.core 1.8.0.v20170531-0903, build=3098, branch=e12ba4db800d8f30e47fd2525429e2f55baf9396
+[2018-01-22 22:31:17] Bundle org.eclipse.oomph.setup.p2 1.8.0.v20170318-0419, build=3098, branch=e12ba4db800d8f30e47fd2525429e2f55baf9396
+[2018-01-22 22:31:17] Performing P2 Director (Eclipse IDE for Java Developers (Oxygen))
+[2018-01-22 22:31:17] Offline = false
+[2018-01-22 22:31:17] Mirrors = true
+[2018-01-22 22:31:17] Resolving 25 requirements from 3 repositories to /Users/Yuho/Git/Interview/Eclipse.app/Contents/Eclipse
+[2018-01-22 22:31:17] Requirement epp.package.java [4.7.0,4.8.0)
+[2018-01-22 22:31:17] Requirement org.eclipse.platform.feature.group [4.7.0,4.8.0)
+[2018-01-22 22:31:17] Requirement org.eclipse.rcp.feature.group [4.7.0,4.8.0)
+[2018-01-22 22:31:17] Requirement org.eclipse.buildship.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.eclemma.feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.egit.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.egit.mylyn.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.jdt.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.jgit.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.m2e.feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.mylyn.git.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.mylyn.hudson.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.mylyn_feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.recommenders.mylyn.rcp.feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.recommenders.news.rcp.feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.recommenders.rcp.feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.recommenders.snipmatch.rcp.feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2018-01-22 22:31:17] Requirement org.eclipse.oomph.setup.feature.group
+[2018-01-22 22:31:17] Repository http://download.eclipse.org/technology/epp/packages/oxygen
+[2018-01-22 22:31:17] Repository http://download.eclipse.org/releases/oxygen/201712201001
+[2018-01-22 22:31:17] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-01-22 22:31:20] Calculating requirements and dependencies.
+[2018-01-22 22:31:22] Computing prerequisite plan
+[2018-01-22 22:31:23] Fetching artifacts.xml.xz from http://download.eclipse.org/releases/oxygen/201712201001/
+[2018-01-22 22:31:24] Fetching artifacts.xml.xz from http://download.eclipse.org/technology/epp/packages/oxygen/
+[2018-01-22 22:31:24] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/ (442B)
+[2018-01-22 22:31:24] Fetching artifacts.jar from http://download.eclipse.org/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ (8.79kB)
+[2018-01-22 22:31:25] Collecting 5 artifacts from http://download.eclipse.org/technology/epp/packages/oxygen
+[2018-01-22 22:31:25] Downloading org.eclipse.epp.package.common.feature
+[2018-01-22 22:31:25] Downloading org.eclipse.epp.package.java
+[2018-01-22 22:31:25] Downloading epp.package.java.executable.cocoa.macosx.x86_64
+[2018-01-22 22:31:25] Downloading org.eclipse.epp.package.java.feature
+[2018-01-22 22:31:25] Downloading org.eclipse.epp.package.common
+[2018-01-22 22:31:25] Fetching epp.package.java.executable.cocoa.macosx.x86_64_4.7.2.20171218-0600 from http://mirror.csclub.uwaterloo.ca/eclipse/technology/epp/packages/oxygen/binary/ (10.7kB)
+[2018-01-22 22:31:25] Fetching org.eclipse.epp.package.common.feature_4.7.2.20171218-0600.jar from http://ftp.osuosl.org/pub/eclipse/technology/epp/packages/oxygen/features/ (17.92kB)
+[2018-01-22 22:31:25] Fetching org.eclipse.epp.package.java_4.7.2.20171218-0600.jar.pack.gz from http://eclipse.mirror.rafal.ca/technology/epp/packages/oxygen/plugins/ (50kB)
+[2018-01-22 22:31:25] Fetching org.eclipse.epp.package.common_4.7.2.20171218-0600.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/technology/epp/packages/oxygen/plugins/ (90.14kB)
+[2018-01-22 22:31:25] Fetching org.eclipse.epp.package.java.feature_4.7.2.20171218-0600.jar from http://mirrors.xmission.com/eclipse/technology/epp/packages/oxygen/features/ (18.42kB)
+[2018-01-22 22:31:26] Mirrored 1 artifacts from http://eclipse.mirror.rafal.ca/technology/epp/packages/oxygen/ at 209kb/s
+[2018-01-22 22:31:26] Mirrored 1 artifacts from http://ftp.ussg.iu.edu/eclipse/technology/epp/packages/oxygen/ at 201kb/s
+[2018-01-22 22:31:26] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/technology/epp/packages/oxygen/ at 74kb/s
+[2018-01-22 22:31:26] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/technology/epp/packages/oxygen/ at 59kb/s
+[2018-01-22 22:31:26] Mirrored 1 artifacts from http://mirrors.xmission.com/eclipse/technology/epp/packages/oxygen/ at 54kb/s
+[2018-01-22 22:31:26] Collected 5 artifacts for http://download.eclipse.org/technology/epp/packages/oxygen in 0.916s
+[2018-01-22 22:31:26] Collecting 23 artifacts from http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.resources.edit
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.p2.edit
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.p2
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.p2
+[2018-01-22 22:31:26] Downloading org.eclipse.nebula.widgets.tablecombo
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.p2
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.p2.edit
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.p2.core
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.core
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.p2_1.9.0.v20171202-1121.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (20.47kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.p2.core_1.9.0.v20171212-1513.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (72.72kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.p2_1.9.0.v20171202-1121.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (20.47kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.201712122235.jar from http://mirror.csclub.uwaterloo.ca/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (35.43kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.p2.edit_1.9.0.v20171202-1121.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (13.09kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.core_1.9.0.v20171212-1451.jar from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/features/ (28.62kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup_1.9.0.v20171212-1513.jar from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/features/ (28.5kB)
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.sync
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.resources.edit_1.9.0.v20171202-1059.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (14.16kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.p2_1.9.0.v20171212-1513.jar from http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/features/ (28.44kB)
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.doc
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.ui
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.editor
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.p2.doc
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.p2.ui
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.ui.questionnaire
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.sync_1.9.0.v20171202-1121.jar.pack.gz from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (45.94kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.editor_1.9.0.v20171207-0710.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (124.3kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.p2.ui_1.9.0.v20171212-1513.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (98.16kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.p2.doc_1.9.0.v20171202-1121.jar from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (313.03kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.ui.questionnaire_1.9.0.v20171111-1010.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (287.14kB)
+[2018-01-22 22:31:26] Downloading org.eclipse.oomph.setup.core
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.p2.edit_1.9.0.v20171202-1121.jar.pack.gz from https://mirrors.dotsrc.org/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (20.29kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.ui_1.9.0.v20171208-1055.jar.pack.gz from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (210.13kB)
+[2018-01-22 22:31:26] Fetching org.eclipse.oomph.setup.core_1.9.0.v20171202-1121.jar.pack.gz from http://mirror.csclub.uwaterloo.ca/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (94.06kB)
+[2018-01-22 22:31:27] Downloading org.eclipse.oomph.util
+[2018-01-22 22:31:27] Fetching org.eclipse.oomph.setup.doc_1.9.0.v20171202-1121.jar from http://mirrors.uniri.hr/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (2.49MB)
+[2018-01-22 22:31:27] Fetching org.eclipse.oomph.util_1.8.0.v20171212-1451.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (74.69kB)
+[2018-01-22 22:31:27] Downloading org.eclipse.oomph.setup.edit
+[2018-01-22 22:31:27] Downloading org.eclipse.oomph.setup
+[2018-01-22 22:31:27] Fetching org.eclipse.oomph.p2_1.9.0.v20171202-1121.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (33.39kB)
+[2018-01-22 22:31:27] Downloading org.eclipse.oomph.resources
+[2018-01-22 22:31:27] Downloading org.eclipse.oomph.workingsets.editor
+[2018-01-22 22:31:27] Fetching org.eclipse.oomph.setup_1.9.0.v20171202-1121.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (129.41kB)
+[2018-01-22 22:31:27] Fetching org.eclipse.oomph.workingsets.editor_1.9.0.v20171202-1121.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (41.77kB)
+[2018-01-22 22:31:27] Fetching org.eclipse.oomph.setup.edit_1.9.0.v20171202-1121.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (46.89kB)
+[2018-01-22 22:31:27] Fetching org.eclipse.oomph.resources_1.9.0.v20171202-1059.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (41.33kB)
+[2018-01-22 22:31:28] Fetching org.eclipse.oomph.setup.doc_1.9.0.v20171202-1121.jar from http://mirrors.uniri.hr/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://mirrors.uniri.hr/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 1,505kb/s
+[2018-01-22 22:31:28] Mirrored 10 artifacts from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 475kb/s
+[2018-01-22 22:31:28] Mirrored 2 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 264kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 247kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 152kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 110kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 91kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://mirrors.nic.cz/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 79kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://ftp.ussg.iu.edu/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 69kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 63kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 32kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from https://mirrors.dotsrc.org/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 29kb/s
+[2018-01-22 22:31:28] Mirrored 1 artifacts from http://mirror.cc.columbia.edu/pub/software/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 27kb/s
+[2018-01-22 22:31:28] Collected 23 artifacts for http://download.eclipse.org/oomph/updates/milestone/latest in 2.731s
+[2018-01-22 22:31:28] Collecting 120 artifacts from http://download.eclipse.org/releases/oxygen/201712201001
+[2018-01-22 22:31:29] Downloading org.eclipse.platform_root
+[2018-01-22 22:31:29] Downloading org.eclipse.rcp
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.injection
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.mediawiki.ui
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.twiki.ui
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.markdown.ui
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.asciidoc.ui
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.confluence.ui
+[2018-01-22 22:31:29] Downloading org.eclipse.egit
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.tracwiki.ui
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.confluence.ui_3.0.19.201711172000.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (11.66kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.asciidoc.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.32kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.confluence.ui_3.0.19.201711172000.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (11.66kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.asciidoc.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.32kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.injection_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (11.17kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.platform_root_4.7.2.v20171130-0510 from http://mirror.csclub.uwaterloo.ca/eclipse/releases/oxygen/201712201001/binary/ (195B)
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.injection_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (11.17kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.rcp_4.7.2.v20171130-0510.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (9.4kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.egit_4.9.2.201712150930-r.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (9.53kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.twiki.ui_3.0.19.201711172000.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (10.25kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.news
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.mylyn.rcp
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.net
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.mediawiki.ui_3.0.19.201711172000.jar from http://mirrors.syringanetworks.net/eclipse/releases/oxygen/201712201001/plugins/ (11.39kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.textile.ui
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.constructors
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.tracwiki.ui_3.0.19.201711172000.jar from http://mirrors.nic.cz/eclipse/releases/oxygen/201712201001/plugins/ (10.38kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.osgi
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.overrides.rcp
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.textile.ui_3.0.19.201711172000.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (12.23kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.jgit
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.statics.rcp
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.constructors_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (8.81kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.statics.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (14.56kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.egit.mylyn.ui
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.markdown.ui_3.0.19.201711172000.jar from https://mirrors.dotsrc.org/eclipse//releases/oxygen/201712201001/plugins/ (9.98kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.egit.mylyn.ui_4.9.2.201712150930-r.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (14.67kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.news_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//releases/oxygen/201712201001/plugins/ (9.38kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.mylyn.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.dkm.cz/eclipse/releases/oxygen/201712201001/plugins/ (12.02kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.statics
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.net_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.fau.de/eclipse/releases/oxygen/201712201001/plugins/ (8.7kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.news.impl
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.mylyn.rcp.feature
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.snipmatch.rcp.feature
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.news.impl_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (16.91kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.mylyn.rcp.feature_2.5.0.v20171201-1623.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (17.55kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.egit.mylyn
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.news.impl_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (16.91kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext.editors_feature
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.news.rcp.feature
+[2018-01-22 22:31:29] Fetching org.eclipse.egit.mylyn_4.9.2.201712150930-r.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (17.6kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.osgi_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (13.38kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.mylyn.wikitext.editors_feature_3.0.19.201711172000.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/features/ (17.61kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.jgit_4.9.2.201712150930-r.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/features/ (14.37kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.snipmatch.rcp.feature_2.5.0.v20171201-1623.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/features/ (17.56kB)
+[2018-01-22 22:31:29] Fetching org.eclipse.recommenders.news.rcp.feature_2.5.0.v20171201-1623.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/features/ (17.63kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.equinox.p2.user.ui
+[2018-01-22 22:31:29] Downloading org.eclipse.equinox.p2.rcp.feature
+[2018-01-22 22:31:29] Downloading org.eclipse.egit
+[2018-01-22 22:31:29] Downloading org.eclipse.mylyn.wikitext_feature
+[2018-01-22 22:31:29] Fetching org.eclipse.equinox.p2.user.ui_2.3.2.v20171108-1343.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (17.65kB)
+[2018-01-22 22:31:29] Downloading org.eclipse.rcp
+[2018-01-22 22:31:29] Downloading org.eclipse.swt
+[2018-01-22 22:31:29] Downloading org.eclipse.recommenders.coordinates
+[2018-01-22 22:31:30] Fetching org.eclipse.equinox.p2.rcp.feature_1.3.2.v20171108-1343.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (17.77kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.egit_4.9.2.201712150930-r.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (17.8kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.utils.rcp
+[2018-01-22 22:31:30] Fetching org.eclipse.mylyn.wikitext_feature_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (17.82kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.utils.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (18.1kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.rcp_4.7.2.v20171130-0510.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/features/ (17.83kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.swt_3.106.2.v20171129-0543.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (17.87kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.help
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.coordinates_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (18.06kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.jdt
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.rcp.feature
+[2018-01-22 22:31:30] Fetching org.eclipse.help_2.2.102.v20171130-0510.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (18.28kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.epp.mpc
+[2018-01-22 22:31:30] Fetching org.eclipse.jdt_3.13.2.v20171130-0906.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (18.42kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.rcp.feature_2.5.0.v20171201-1623.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (18.43kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.jayes.io
+[2018-01-22 22:31:30] Fetching org.eclipse.epp.mpc_1.6.3.v20171122-2010.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (18.69kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.eclemma.feature
+[2018-01-22 22:31:30] Downloading org.eclipse.platform
+[2018-01-22 22:31:30] Downloading org.eclipse.e4.rcp
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.news.api
+[2018-01-22 22:31:30] Fetching org.eclipse.eclemma.feature_3.0.1.201711142128.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (19.17kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.jdt.junit5.runtime
+[2018-01-22 22:31:30] Fetching org.eclipse.platform_4.7.2.v20171130-0510.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (19.24kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.jayes.io_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (19.1kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.overrides
+[2018-01-22 22:31:30] Downloading org.eclipse.jetty.continuation
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.news.api_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (10.26kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.jdt.junit5.runtime_1.0.1.v20171130-0906.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (12.63kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.e4.rcp_1.6.2.v20171129-0543.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/features/ (19.56kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.jetty.continuation_9.4.7.v20170914.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (16.73kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.overrides_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (12.29kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.jdt.junit.runtime
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.constructors.rcp
+[2018-01-22 22:31:30] Fetching org.eclipse.jdt.junit.runtime_3.4.651.v20171130-0906.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (24.29kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.chain.rcp
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.constructors.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (13.73kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.jgit.archive
+[2018-01-22 22:31:30] Downloading org.eclipse.rcp_root
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.apidocs
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.calls
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.snipmatch
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.chain.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (25.54kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.rcp_root_4.7.2.v20171130-0510 from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/binary/ (26.16kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.jdt
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.apidocs_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (11.7kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.jgit.archive_4.9.2.201712150930-r.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (25.6kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.mylyn.wikitext.context.ui
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.calls_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (14.08kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.snipmatch_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (28.5kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.jdt_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (17.69kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.equinox.launcher.cocoa.macosx.x86_64
+[2018-01-22 22:31:30] Fetching org.eclipse.mylyn.wikitext.context.ui_3.0.19.201711172000.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (31.42kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.recommenders.subwords.rcp
+[2018-01-22 22:31:30] Downloading org.eclipse.jdt
+[2018-01-22 22:31:30] Fetching org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.1.551.v20171108-1834.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (32.62kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.platform.doc.user
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.subwords.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (18.44kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.jdt_3.13.2.v20171130-0510.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (34.13kB)
+[2018-01-22 22:31:30] Fetching org.eclipse.platform.doc.user_4.7.2.v20171013-1251.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (8.78MB)
+[2018-01-22 22:31:30] Downloading org.eclipse.jdt.doc.user
+[2018-01-22 22:31:30] Fetching org.eclipse.platform.doc.user_4.7.2.v20171013-1251.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (8.78MB)
+[2018-01-22 22:31:30] Downloading org.eclipse.jdt.core
+[2018-01-22 22:31:30] Fetching org.eclipse.recommenders.overrides.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (13.47kB)
+[2018-01-22 22:31:30] Downloading org.eclipse.egit.doc
+[2018-01-22 22:31:30] Downloading org.eclipse.jdt.ui
+[2018-01-22 22:31:30] Downloading org.eclipse.jgit
+[2018-01-22 22:31:30] Fetching org.eclipse.jdt.core_3.13.100.v20171123-1049.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (6.41MB)
+[2018-01-22 22:31:30] Downloading org.eclipse.jdt.debug.ui
+[2018-01-22 22:31:30] Fetching org.eclipse.jdt.ui_3.13.51.v20171122-0652.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (4.03MB)
+[2018-01-22 22:31:30] Fetching org.eclipse.jdt.doc.user_3.13.51.v20171124-0639.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (9.06MB)
+[2018-01-22 22:31:30] Fetching org.eclipse.egit.doc_4.9.2.201712150930-r.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (4.22MB)
+[2018-01-22 22:31:30] Fetching org.eclipse.jgit_4.9.2.201712150930-r.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (2.51MB)
+[2018-01-22 22:31:30] Fetching org.eclipse.egit.doc_4.9.2.201712150930-r.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (4.22MB)
+[2018-01-22 22:31:30] Fetching org.eclipse.jgit_4.9.2.201712150930-r.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (2.51MB)
+[2018-01-22 22:31:30] Downloading org.eclipse.mylyn.wikitext.help.ui
+[2018-01-22 22:31:30] Downloading org.eclipse.egit.ui
+[2018-01-22 22:31:31] Fetching org.eclipse.jdt.debug.ui_3.8.51.v20171031-0416.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (1.61MB)
+[2018-01-22 22:31:31] Fetching org.eclipse.recommenders.statics_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (10.08kB)
+[2018-01-22 22:31:31] Fetching org.eclipse.mylyn.wikitext.help.ui_3.0.19.201711172000.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (1.24MB)
+[2018-01-22 22:31:31] Fetching org.eclipse.egit.ui_4.9.2.201712150930-r.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (1.07MB)
+[2018-01-22 22:31:31] Downloading org.eclipse.jface
+[2018-01-22 22:31:31] Fetching org.eclipse.jface_3.13.2.v20171022-1656.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (355.27kB)
+[2018-01-22 22:31:31] Fetching org.eclipse.platform.doc.user_4.7.2.v20171013-1251.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:31] Fetching org.eclipse.jdt.core_3.13.100.v20171123-1049.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:31] Fetching org.eclipse.jgit_4.9.2.201712150930-r.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:31] Fetching org.eclipse.egit.doc_4.9.2.201712150930-r.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:31] Fetching org.eclipse.jdt.ui_3.13.51.v20171122-0652.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:31] Fetching org.eclipse.jdt.doc.user_3.13.51.v20171124-0639.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:32] Fetching org.eclipse.jdt.debug.ui_3.8.51.v20171031-0416.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:32] Fetching org.eclipse.mylyn.wikitext.help.ui_3.0.19.201711172000.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:32] Fetching org.eclipse.egit.ui_4.9.2.201712150930-r.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:32] Downloading org.eclipse.swt.cocoa.macosx.x86_64
+[2018-01-22 22:31:32] Downloading org.eclipse.epp.mpc.help.ui
+[2018-01-22 22:31:33] Fetching org.eclipse.swt.cocoa.macosx.x86_64_3.106.2.v20171129-0543.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (955.21kB)
+[2018-01-22 22:31:33] Fetching org.eclipse.epp.mpc.help.ui_1.6.3.v20171122-1939.jar from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (749.78kB)
+[2018-01-22 22:31:33] Downloading org.eclipse.equinox.p2.ui
+[2018-01-22 22:31:33] Fetching org.eclipse.equinox.p2.ui_2.5.2.v20171013-1525.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (295.11kB)
+[2018-01-22 22:31:34] Fetching org.eclipse.swt.cocoa.macosx.x86_64_3.106.2.v20171129-0543.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/
+[2018-01-22 22:31:34] Downloading org.eclipse.jetty.server
+[2018-01-22 22:31:34] Downloading org.eclipse.epp.mpc.ui
+[2018-01-22 22:31:34] Fetching org.eclipse.jetty.server_9.4.7.v20170914.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (448.79kB)
+[2018-01-22 22:31:34] Fetching org.eclipse.epp.mpc.ui_1.6.3.v20171122-2010.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (586.73kB)
+[2018-01-22 22:31:34] Downloading org.eclipse.jetty.util
+[2018-01-22 22:31:34] Downloading org.eclipse.egit.core
+[2018-01-22 22:31:34] Fetching org.eclipse.jetty.util_9.4.7.v20170914.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (353.81kB)
+[2018-01-22 22:31:34] Fetching org.eclipse.egit.core_4.9.2.201712150930-r.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (149.96kB)
+[2018-01-22 22:31:34] Downloading org.eclipse.mylyn.wikitext.ui
+[2018-01-22 22:31:35] Downloading org.eclipse.mylyn.wikitext
+[2018-01-22 22:31:35] Fetching org.eclipse.mylyn.wikitext.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (460.18kB)
+[2018-01-22 22:31:35] Downloading org.eclipse.jdt.launching
+[2018-01-22 22:31:35] Fetching org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (126.97kB)
+[2018-01-22 22:31:35] Fetching org.eclipse.mylyn.wikitext_3.0.19.20171117145831.jar from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (364.09kB)
+[2018-01-22 22:31:35] Downloading org.eclipse.jface.text
+[2018-01-22 22:31:35] Downloading org.eclipse.platform
+[2018-01-22 22:31:35] Fetching org.eclipse.jface.text_3.12.1.v20171114-1359.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (318.79kB)
+[2018-01-22 22:31:35] Downloading org.eclipse.epp.mpc.core
+[2018-01-22 22:31:35] Fetching org.eclipse.platform_4.7.2.v20171130-0510.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (281.96kB)
+[2018-01-22 22:31:35] Downloading org.eclipse.jdt.junit
+[2018-01-22 22:31:35] Fetching org.eclipse.epp.mpc.core_1.6.3.v20171122-2010.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (239.59kB)
+[2018-01-22 22:31:35] Fetching org.eclipse.jdt.junit_3.10.51.v20171107-1248.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (235.48kB)
+[2018-01-22 22:31:35] Downloading org.eclipse.platform.ide.executable.cocoa.macosx.x86_64
+[2018-01-22 22:31:35] Fetching org.eclipse.platform.ide.executable.cocoa.macosx.x86_64_4.7.2.M20171130-0510 from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/binary/ (233.18kB)
+[2018-01-22 22:31:35] Downloading org.eclipse.recommenders.completion.rcp
+[2018-01-22 22:31:36] Fetching org.eclipse.recommenders.completion.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (61.74kB)
+[2018-01-22 22:31:36] Downloading org.eclipse.eclemma.doc
+[2018-01-22 22:31:36] Fetching org.eclipse.eclemma.doc_3.0.1.201711142128.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (210.99kB)
+[2018-01-22 22:31:36] Downloading org.eclipse.jdt.junit.core
+[2018-01-22 22:31:36] Downloading org.eclipse.recommenders.rcp
+[2018-01-22 22:31:36] Fetching org.eclipse.jdt.junit.core_3.9.51.v20171102-1136.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (62.43kB)
+[2018-01-22 22:31:36] Downloading org.eclipse.ant.launching
+[2018-01-22 22:31:36] Fetching org.eclipse.ant.launching_1.2.1.v20171108-0853.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (101.64kB)
+[2018-01-22 22:31:36] Fetching org.eclipse.recommenders.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (78.21kB)
+[2018-01-22 22:31:36] Downloading org.eclipse.help.base
+[2018-01-22 22:31:36] Downloading org.eclipse.eclemma.ui
+[2018-01-22 22:31:36] Downloading org.eclipse.recommenders.models.rcp
+[2018-01-22 22:31:36] Downloading org.eclipse.jetty.http
+[2018-01-22 22:31:36] Downloading org.eclipse.jdt.compiler.tool
+[2018-01-22 22:31:36] Fetching org.eclipse.eclemma.ui_3.0.1.201711142128.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (137.14kB)
+[2018-01-22 22:31:36] Fetching org.eclipse.help.base_4.2.102.v20171130-0510.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (161.05kB)
+[2018-01-22 22:31:36] Fetching org.eclipse.jetty.http_9.4.7.v20170914.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (131.06kB)
+[2018-01-22 22:31:36] Fetching org.eclipse.recommenders.models.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (49.41kB)
+[2018-01-22 22:31:36] Fetching org.eclipse.jdt.compiler.tool_1.2.51.v20171122-1403.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (69.13kB)
+[2018-01-22 22:31:37] Downloading org.eclipse.jetty.servlet
+[2018-01-22 22:31:37] Downloading org.eclipse.mylyn.wikitext.asciidoc
+[2018-01-22 22:31:37] Downloading org.eclipse.core.jobs
+[2018-01-22 22:31:37] Downloading org.eclipse.recommenders.apidocs.rcp
+[2018-01-22 22:31:37] Fetching org.eclipse.recommenders.apidocs.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (40.33kB)
+[2018-01-22 22:31:37] Fetching org.eclipse.mylyn.wikitext.asciidoc_3.0.19.20171117145831.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (105.7kB)
+[2018-01-22 22:31:37] Fetching org.eclipse.core.jobs_3.9.2.v20171030-1027.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (46.11kB)
+[2018-01-22 22:31:37] Downloading org.eclipse.recommenders.snipmatch.rcp
+[2018-01-22 22:31:37] Fetching org.eclipse.jetty.servlet_9.4.7.v20170914.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (89.4kB)
+[2018-01-22 22:31:37] Downloading org.eclipse.jetty.security
+[2018-01-22 22:31:37] Downloading org.eclipse.recommenders.jayes
+[2018-01-22 22:31:37] Fetching org.eclipse.recommenders.snipmatch.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (104.27kB)
+[2018-01-22 22:31:37] Fetching org.eclipse.jetty.security_9.4.7.v20170914.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (70.82kB)
+[2018-01-22 22:31:37] Downloading org.eclipse.jetty.io
+[2018-01-22 22:31:37] Fetching org.eclipse.recommenders.jayes_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (37.4kB)
+[2018-01-22 22:31:37] Downloading org.eclipse.mylyn.wikitext.confluence
+[2018-01-22 22:31:37] Fetching org.eclipse.jetty.io_9.4.7.v20170914.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (92.75kB)
+[2018-01-22 22:31:37] Fetching org.eclipse.mylyn.wikitext.confluence_3.0.19.20171117145831.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (92.72kB)
+[2018-01-22 22:31:37] Downloading org.eclipse.mylyn.wikitext.textile
+[2018-01-22 22:31:37] Downloading org.eclipse.mylyn.wikitext.mediawiki
+[2018-01-22 22:31:37] Fetching org.eclipse.mylyn.wikitext.textile_3.0.19.20171117145831.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (92.12kB)
+[2018-01-22 22:31:38] Downloading org.eclipse.mylyn.wikitext.markdown
+[2018-01-22 22:31:38] Downloading org.eclipse.jdt.compiler.apt
+[2018-01-22 22:31:38] Downloading org.eclipse.mylyn.wikitext.tracwiki
+[2018-01-22 22:31:38] Downloading org.eclipse.recommenders.calls.rcp
+[2018-01-22 22:31:38] Fetching org.eclipse.mylyn.wikitext.markdown_3.0.19.20171117145831.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (80.75kB)
+[2018-01-22 22:31:38] Fetching org.eclipse.mylyn.wikitext.mediawiki_3.0.19.20171117145831.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (83.11kB)
+[2018-01-22 22:31:38] Fetching org.eclipse.mylyn.wikitext.tracwiki_3.0.19.20171117145831.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (72.51kB)
+[2018-01-22 22:31:38] Fetching org.eclipse.jdt.compiler.apt_1.3.60.v20171129-1553.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (75.5kB)
+[2018-01-22 22:31:38] Downloading org.eclipse.recommenders.models
+[2018-01-22 22:31:38] Fetching org.eclipse.recommenders.calls.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (32.04kB)
+[2018-01-22 22:31:38] Downloading org.eclipse.mylyn.wikitext.twiki
+[2018-01-22 22:31:38] Downloading org.eclipse.mylyn.wikitext.html
+[2018-01-22 22:31:38] Fetching org.eclipse.recommenders.models_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (24.91kB)
+[2018-01-22 22:31:38] Fetching org.eclipse.mylyn.wikitext.twiki_3.0.19.20171117145831.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (50.5kB)
+[2018-01-22 22:31:38] Fetching org.eclipse.mylyn.wikitext.html_3.0.19.20171117145831.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (49.11kB)
+[2018-01-22 22:31:38] Downloading org.eclipse.mylyn.wikitext.tasks.ui
+[2018-01-22 22:31:38] Fetching org.eclipse.mylyn.wikitext.tasks.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (46.06kB)
+[2018-01-22 22:31:38] Downloading org.eclipse.mylyn.wikitext.ant
+[2018-01-22 22:31:38] Downloading org.eclipse.recommenders.news.rcp
+[2018-01-22 22:31:38] Downloading org.eclipse.recommenders.types.rcp
+[2018-01-22 22:31:38] Fetching org.eclipse.mylyn.wikitext.ant_3.0.19.20171117145831.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (45.48kB)
+[2018-01-22 22:31:38] Downloading org.eclipse.recommenders.utils
+[2018-01-22 22:31:38] Fetching org.eclipse.recommenders.types.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (20.3kB)
+[2018-01-22 22:31:38] Fetching org.eclipse.recommenders.news.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (43.53kB)
+[2018-01-22 22:31:38] Downloading org.eclipse.eclemma.core
+[2018-01-22 22:31:38] Fetching org.eclipse.recommenders.utils_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (41.02kB)
+[2018-01-22 22:31:38] Downloading org.eclipse.recommenders.coordinates.rcp
+[2018-01-22 22:31:38] Fetching org.eclipse.recommenders.coordinates.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (35.01kB)
+[2018-01-22 22:31:38] Fetching org.eclipse.eclemma.core_3.0.1.201711142128.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (35.55kB)
+[2018-01-22 22:31:42] Mirrored 63 artifacts from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/ at 912kb/s
+[2018-01-22 22:31:42] Mirrored 31 artifacts from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/ at 804kb/s
+[2018-01-22 22:31:42] Mirrored 12 artifacts from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/ at 507kb/s
+[2018-01-22 22:31:42] Mirrored 1 artifacts from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/ at 46kb/s
+[2018-01-22 22:31:42] Mirrored 1 artifacts from http://mirrors.syringanetworks.net/eclipse/releases/oxygen/201712201001/ at 41kb/s
+[2018-01-22 22:31:42] Mirrored 1 artifacts from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/ at 40kb/s
+[2018-01-22 22:31:42] Mirrored 1 artifacts from http://mirror.dkm.cz/eclipse/releases/oxygen/201712201001/ at 34kb/s
+[2018-01-22 22:31:42] Mirrored 1 artifacts from http://mirrors.nic.cz/eclipse/releases/oxygen/201712201001/ at 31kb/s
+[2018-01-22 22:31:42] Mirrored 1 artifacts from http://ftp.halifax.rwth-aachen.de/eclipse//releases/oxygen/201712201001/ at 27kb/s
+[2018-01-22 22:31:42] Mirrored 1 artifacts from http://ftp.fau.de/eclipse/releases/oxygen/201712201001/ at 23kb/s
+[2018-01-22 22:31:42] Mirrored 1 artifacts from https://mirrors.dotsrc.org/eclipse//releases/oxygen/201712201001/ at 21kb/s
+[2018-01-22 22:31:42] Mirrored 7 artifacts from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/ at 14kb/s with 2 failures
+[2018-01-22 22:31:42] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/releases/oxygen/201712201001/ at 1kb/s
+[2018-01-22 22:31:42] Collected 120 artifacts for http://download.eclipse.org/releases/oxygen/201712201001 in 13.641s
+[2018-01-22 22:31:44] Installing epp.package.java [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing org.eclipse.ant.launching [1.2.1.v20171108-0853]
+[2018-01-22 22:31:44] Installing org.eclipse.core.jobs [3.9.2.v20171030-1027]
+[2018-01-22 22:31:44] Installing org.eclipse.e4.rcp.feature.group [1.6.2.v20171129-0543]
+[2018-01-22 22:31:44] Installing org.eclipse.eclemma.core [3.0.1.201711142128]
+[2018-01-22 22:31:44] Installing org.eclipse.eclemma.doc [3.0.1.201711142128]
+[2018-01-22 22:31:44] Installing org.eclipse.eclemma.feature.feature.group [3.0.1.201711142128]
+[2018-01-22 22:31:44] Installing org.eclipse.eclemma.ui [3.0.1.201711142128]
+[2018-01-22 22:31:44] Installing org.eclipse.egit [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.egit.core [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.egit.doc [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.egit.feature.group [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.egit.mylyn.feature.group [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.egit.mylyn.ui [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.egit.ui [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.mpc.core [1.6.3.v20171122-2010]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.mpc.feature.group [1.6.3.v20171122-2010]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.mpc.help.ui [1.6.3.v20171122-1939]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.mpc.ui [1.6.3.v20171122-2010]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.package.common [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.package.common.feature.feature.group [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.package.java [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.package.java.feature.feature.group [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing org.eclipse.equinox.launcher.cocoa.macosx.x86_64 [1.1.551.v20171108-1834]
+[2018-01-22 22:31:44] Installing org.eclipse.equinox.p2.rcp.feature.feature.group [1.3.2.v20171108-1343]
+[2018-01-22 22:31:44] Installing org.eclipse.equinox.p2.ui [2.5.2.v20171013-1525]
+[2018-01-22 22:31:44] Installing org.eclipse.equinox.p2.user.ui.feature.group [2.3.2.v20171108-1343]
+[2018-01-22 22:31:44] Installing org.eclipse.help.base [4.2.102.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.help.feature.group [2.2.102.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt [3.13.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.compiler.apt [1.3.60.v20171129-1553]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.compiler.tool [1.2.51.v20171122-1403]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.core [3.13.100.v20171123-1049]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.debug.ui [3.8.51.v20171031-0416]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.doc.user [3.13.51.v20171124-0639]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.feature.group [3.13.2.v20171130-0906]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.junit [3.10.51.v20171107-1248]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.junit.core [3.9.51.v20171102-1136]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.junit.runtime [3.4.651.v20171130-0906]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.junit5.runtime [1.0.1.v20171130-0906]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.launching [3.9.51.v20171114-1018]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.ui [3.13.51.v20171122-0652]
+[2018-01-22 22:31:44] Installing org.eclipse.jetty.continuation [9.4.7.v20170914]
+[2018-01-22 22:31:44] Installing org.eclipse.jetty.http [9.4.7.v20170914]
+[2018-01-22 22:31:44] Installing org.eclipse.jetty.io [9.4.7.v20170914]
+[2018-01-22 22:31:44] Installing org.eclipse.jetty.security [9.4.7.v20170914]
+[2018-01-22 22:31:44] Installing org.eclipse.jetty.server [9.4.7.v20170914]
+[2018-01-22 22:31:44] Installing org.eclipse.jetty.servlet [9.4.7.v20170914]
+[2018-01-22 22:31:44] Installing org.eclipse.jetty.util [9.4.7.v20170914]
+[2018-01-22 22:31:44] Installing org.eclipse.jface [3.13.2.v20171022-1656]
+[2018-01-22 22:31:44] Installing org.eclipse.jface.text [3.12.1.v20171114-1359]
+[2018-01-22 22:31:44] Installing org.eclipse.jgit [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.jgit.archive [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.jgit.feature.group [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.ant [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.asciidoc [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.asciidoc.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.confluence [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.confluence.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.context.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.help.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.html [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.markdown [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.markdown.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.mediawiki [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.mediawiki.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.osgi [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.tasks.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.textile [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.textile.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.tracwiki [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.tracwiki.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.twiki [3.0.19.20171117145831]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.twiki.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.ui [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext_feature.feature.group [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.nebula.widgets.tablecombo [1.2.0.201712122235]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.p2 [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.p2.core [1.9.0.v20171212-1513]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.p2.doc [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.p2.edit [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.p2.feature.group [1.9.0.v20171212-1513]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.p2.ui [1.9.0.v20171212-1513]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.resources [1.9.0.v20171202-1059]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.resources.edit [1.9.0.v20171202-1059]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.core [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.core.feature.group [1.9.0.v20171212-1451]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.doc [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.edit [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.editor [1.9.0.v20171207-0710]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.feature.group [1.9.0.v20171212-1513]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.p2 [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.p2.edit [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.sync [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.ui [1.9.0.v20171208-1055]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.ui.questionnaire [1.9.0.v20171111-1010]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.util [1.8.0.v20171212-1451]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.workingsets.editor [1.9.0.v20171202-1121]
+[2018-01-22 22:31:44] Installing org.eclipse.platform [4.7.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.platform.doc.user [4.7.2.v20171013-1251]
+[2018-01-22 22:31:44] Installing org.eclipse.platform.feature.group [4.7.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.platform.ide [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.rcp [4.7.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.rcp.feature.group [4.7.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.apidocs [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.apidocs.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.calls [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.calls.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.chain.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.completion.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.constructors [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.constructors.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.coordinates [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.coordinates.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.injection [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.jayes [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.jayes.io [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.jdt [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.models [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.models.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.mylyn.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.mylyn.rcp.feature.feature.group [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.net [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.overrides [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.overrides.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.rcp.feature.feature.group [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.snipmatch [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.snipmatch.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.snipmatch.rcp.feature.feature.group [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.subwords.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.types.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.utils [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.utils.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.swt [3.106.2.v20171129-0543]
+[2018-01-22 22:31:44] Installing org.eclipse.swt.cocoa.macosx.x86_64 [3.106.2.v20171129-0543]
+[2018-01-22 22:31:44] Installing com.mountainminds.eclemma.core [3.0.1.201711142128]
+[2018-01-22 22:31:44] Installing epp.package.java.executable.cocoa.macosx.x86_64 [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing epp.package.java.executable.cocoa.macosx.x86_64.eclipse [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing org.eclipse.e4.rcp.feature.jar [1.6.2.v20171129-0543]
+[2018-01-22 22:31:44] Installing org.eclipse.eclemma.feature.feature.jar [3.0.1.201711142128]
+[2018-01-22 22:31:44] Installing org.eclipse.egit.feature.jar [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.egit.mylyn.feature.jar [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.mpc.feature.jar [1.6.3.v20171122-2010]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.package.common.feature.feature.jar [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing org.eclipse.epp.package.java.feature.feature.jar [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing org.eclipse.equinox.p2.rcp.feature.feature.jar [1.3.2.v20171108-1343]
+[2018-01-22 22:31:44] Installing org.eclipse.equinox.p2.user.ui.feature.jar [2.3.2.v20171108-1343]
+[2018-01-22 22:31:44] Installing org.eclipse.help.feature.jar [2.2.102.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.jdt.feature.jar [3.13.2.v20171130-0906]
+[2018-01-22 22:31:44] Installing org.eclipse.jgit.feature.jar [4.9.2.201712150930-r]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.jar [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.mylyn.wikitext_feature.feature.jar [3.0.19.201711172000]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.p2.feature.jar [1.9.0.v20171212-1513]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.core.feature.jar [1.9.0.v20171212-1451]
+[2018-01-22 22:31:44] Installing org.eclipse.oomph.setup.feature.jar [1.9.0.v20171212-1513]
+[2018-01-22 22:31:44] Installing org.eclipse.platform.feature.jar [4.7.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.platform.ide.executable.cocoa.macosx.x86_64 [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.platform.ide.executable.cocoa.macosx.x86_64.eclipse [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.platform_root [4.7.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.rcp.feature.jar [4.7.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.rcp_root [4.7.2.v20171130-0510]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.mylyn.rcp.feature.feature.jar [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.news [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.news.api [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.news.impl [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.news.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.news.rcp.feature.feature.group [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.news.rcp.feature.feature.jar [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.rcp.feature.feature.jar [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.snipmatch.rcp.feature.feature.jar [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.statics [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing org.eclipse.recommenders.statics.rcp [2.5.0.v20171201-1623]
+[2018-01-22 22:31:44] Installing toolingcocoa.macosx.x86_64org.eclipse.core.runtime [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.common [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.ds [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.event [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.p2.reconciler.dropins [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.simpleconfigurator [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingcocoa.macosx.x86_64org.eclipse.update.configurator [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingepp.package.java.application [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing toolingepp.package.java.config.cocoa.macosx.x86_64 [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing toolingepp.package.java.configuration [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing toolingepp.package.java.executable.cocoa.macosx.x86_64 [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing toolingepp.package.java.ini.cocoa.macosx.x86_64 [4.7.2.20171218-0600]
+[2018-01-22 22:31:44] Installing toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64 [1.1.551.v20171108-1834]
+[2018-01-22 22:31:44] Installing toolingorg.eclipse.platform.ide.application [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingorg.eclipse.platform.ide.config.cocoa.macosx.x86_64 [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingorg.eclipse.platform.ide.configuration [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingorg.eclipse.platform.ide.executable.cocoa.macosx.x86_64 [4.7.2.M20171130-0510]
+[2018-01-22 22:31:44] Installing toolingorg.eclipse.platform.ide.ini.cocoa.macosx.x86_64 [4.7.2.M20171130-0510]
+[2018-01-22 22:31:45] Preparing to commit the provisioning operation.
+[2018-01-22 22:31:45] Committing the provisioning operation.
+[2018-01-22 22:31:46] 
